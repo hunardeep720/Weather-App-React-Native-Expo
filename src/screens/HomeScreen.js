@@ -105,9 +105,9 @@ export default function HomeScreen() {
             </View>
             {locations.length > 0 && showSearchBar ? (
               <View
-                className=" absolute w-full top-16 rounded-3xl "
+                className=" absolute w-full top-16 rounded-3xl"
                 style={{
-                  backgroundColor: "rgba(255, 255, 255, 0.6)",
+                  backgroundColor: "rgba(255, 255, 255,1)",
                   borderBottomColor: "#f0f0f0",
                   backdropFilter: "blur(6px)",
                 }}
